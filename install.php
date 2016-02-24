@@ -4,7 +4,7 @@
  * Delete the config.php inside of the 'inc' folder then load install.php in your browser.
  */
 
-$filename = "inc/config.php";
+$filename = "/.env";
 if(file_exists($filename)) {
     //If the site has already been installed, don't reinstall!
     header('Location: index.php');
